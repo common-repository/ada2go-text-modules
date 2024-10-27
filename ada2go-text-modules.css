@@ -1,0 +1,64 @@
+#a2g-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#a2g-table td, #a2g-table th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+#a2g-table tr:nth-child(even){background-color: #f1f1f1;}
+
+#a2g-table tr:hover {background-color: #ddd;}
+
+#a2g-table th {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+  background-color: #bbb;
+  color: black;
+}
+
+.a2g-p-container {
+  width: 95%;
+  padding-left: 15px!important;
+  
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: whitesmoke;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: lightcyan;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
